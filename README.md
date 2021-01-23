@@ -1,7 +1,6 @@
 # Knight Game
 
-## Purpose
-A game that uses the Pygame library in Python where you try to avoid the moving blocks by jumping. This game is similar to Google's dinosaur game that displays when there is no internet but with different rules and mechanics. Some animations are present in the background along with randomly generated trees sprites.
+A game that uses the Pygame library in Python where you try to avoid the moving blocks by jumping. This game is similar to Google's dinosaur game that displays when there is no internet but with different rules and mechanics. Some animations are present in the background such as moving clouds, mountains, and sun flares. Tree sprites are randomly generated in any position within the green region.
 
 ![](https://github.com/GrantPau/Knight-Game/blob/main/Clips/knight-game.gif)
 
