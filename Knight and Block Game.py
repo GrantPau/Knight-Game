@@ -3,7 +3,6 @@ from random import randrange
 
 pygame.init()
 
-#size is a list that contains the width and height
 size = width, height = 600, 400
 black = (0,0,0)
 white = (255,255,255)
@@ -56,7 +55,6 @@ class Mountain(pygame.sprite.Sprite):
     def __init__(self, x, y, heights):
         pygame.sprite.Sprite.__init__(self)
         self.image = pygame.Surface([400, 400], pygame.SRCALPHA, 32)
-        #self.image = self.image.convert_alpha() #transparent
         self.rect = self.image.get_rect() #make the x and y
         self.rect.x = x
         self.rect.y = y
@@ -627,8 +625,6 @@ while running:
             screen.blit(retry, (450, 370))
             screen.blit(quit_game, (15, 370))
             screen.blit(total_score, (100, 100))
-
-
 
     pygame.display.update()
     clock.tick(60)
